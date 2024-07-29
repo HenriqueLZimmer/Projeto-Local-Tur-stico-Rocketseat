@@ -1,0 +1,111 @@
+O que fazer:
+    A primeira coisa a se fazer é: 
+    Git Bash - git init .
+    Observar todo o projeto, vendo a sua particularidade.
+    É possível obeservar que antes de um h1 possui uma outra escrita. (Procurar como que eu vou colocar ela antes)
+    Após uma imagem com bordas arredondadas.
+    Uma descrição da foto
+    Seguindo o projeto temos a mesma ideia do bloco acima, porém ao invés de ter uma descrição abaixo da foto temos uma descrição abaixo do h2
+    É feita uma lista com números seguindo um padrão de numeração, com imagens e descrições.
+    Apos isso tem um descritivo
+    Para finalizar um rodapé
+
+Desenho do projeto
+    Local turístico
+        Principal:
+            Title page:
+                headline 
+                    letter: open sans
+                    font-weight: bolt
+                    color: #E1624F
+                    size: 16
+                title h1
+                    color: #1B1B1B
+                    size: 36
+            Sobre o local:
+                imagem
+                    radius: 28px
+                    horizontal resinzing: fill
+                    vertical resinzing: Fixed
+                    vertical: 600px
+                descrição
+                    Vertical resinzing: fixed 37px
+                    align: center, top
+                    color: #333333
+                    font style: italic
+            Divisor:
+                vertical resinzing: Fixed
+                border-color: #D9D9D9
+                center
+                1
+            O que fazer no local:
+                titulo lista
+                    titulo
+                        headline
+                            letter: open sans
+                            font-weight: bolt
+                            color: #E1624F
+                            size: 16
+                        titulo h2
+                            letter: open sans
+                            font-weight: bolt
+                            color: #1B1B1B
+                            size: 32
+                    descrição local
+                            letter: open sans
+                            font-weight: bolt
+                            color: #333333
+                            size: 16
+                lista
+                    Passeio 1
+                        imagem
+                            vertical size: 350px
+                            vertical resinzing: fixed
+                            radius: 28px
+                        content card
+                            titulo h3
+                                horizontal resinzing: fixed
+                                horizontal size: 1183.51px
+                                font: open sans
+                                font-weight: bolt
+                                size: 28px
+                                color: #1B1B1B
+                            descrição
+                                color text: #333333
+                                color list: #0C51A7
+                    Passeio 2
+                        imagem
+                        content card
+                            titulo h3
+                            descrição
+                    Passeio 3
+                        imagem
+                        content card
+                            titulo h3
+                            descrição
+                                text: #333333
+                                accent/purple: #591B98
+                                accent/pink: #E5245E
+                                accent/orange: #E95E10
+            Divisor:
+                vertical resinzing: Fixed
+                border-color: #D9D9D9
+                center
+                1
+            Descrição do local:
+                Descrição
+                    font: open sans
+                    size: 16px
+                    color: #333333
+            Créditos
+                texto
+                    font: alice
+                    size: 16px
+                    coler: #333333
+
+Content files in project:
+    index.html (raiz do projeto)
+    style.css (Estilos dos elementos)
+    asset (Pasta com as imagens)
+    .gitignore
+    Passos.txt (Descrição de como será feito o projeto.)
