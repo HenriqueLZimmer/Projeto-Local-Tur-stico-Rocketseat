@@ -2,15 +2,59 @@
     font-family: "Open Sans", serif;
 }
 
-#divider {
+.divider {
     width: 100%;
     height: 1px;
     margin: 36px 0;
-    background-color: #e81f1f;
+    background-color: #d9d9d9;
   }
+
+  img{
+    border-radius: 28px;
+  }
+
+  main{
+    padding: 80px;
+  }
+
+  .paragraph{
+    font-weight: bold;
+  }
+
 
   footer{
     color:#333333;
     text-align: center;
     padding-bottom: 48px;
+}
+/* h225
+    w160 */
+h4{
+    color:#E1624F;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+h1 + h2 + h3{
+    color: #1b1b1b;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: center;
+    color:#333333;
+    margin-top:24px;
+
+}
+
+h2 ::first-letter{
+    text-transform: uppercase;
+}
+
+h3{
+    text-transform: capitalize;
 }
