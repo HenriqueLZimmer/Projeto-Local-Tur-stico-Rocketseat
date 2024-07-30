@@ -117,6 +117,8 @@ h1{
   }
 
   footer{
+    font-family: Alice , serif;
+    font-size: 16px;
     text-align: center;
     color: #333333
   }
