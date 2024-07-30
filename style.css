@@ -3,15 +3,14 @@
 }
 
 body{
-    color: #f5f4f0;
-    width: 1120px;
+    background-size: cover;
 }
 
 #page{
     box-sizing: border-box;
     width: 1120px;
-    padding: 80px;
-    margin:40px;
+    margin:40px auto;
+    color: #f5f4f0;
 
 }
 
