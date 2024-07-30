@@ -1,5 +1,6 @@
 :root {
     font-family: "Open Sans", serif;
+    line-height: 100%;
 }
 
 body{
@@ -96,20 +97,25 @@ h1{
     padding-left: 0;
   }
 
-  ul{
-    color: #0c51a7;
+  li{
     font-weight: bold;
   }
 
-  #casais{
+  ul{
+    color: #0c51a7;
+    font-weight: bold;
+    list-style-type: disc;
+  }
+
+  #listacores :nth-child(1){
     color: #591b98;
   }
 
-  #familias{
+  #listacores :nth-child(2){
     color: #e5245e;
   }
 
-  #orçamento{
+  #listacores :nth-child(3){
     color: #e95e10;
     padding-bottom: 40px;
   }
