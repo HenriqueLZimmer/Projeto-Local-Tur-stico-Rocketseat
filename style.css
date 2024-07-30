@@ -52,14 +52,18 @@ h1{
 
   h2{
     font-size: 32px;
-    text-transform: capitalize;
     color: #1b1b1b;
     font-weight: bold;
+  }
+
+  h2::first-letter {
+    text-transform: uppercase;
   }
 
   p{
     font-size: 16px;
     color: #333333;
+    text-align: justify;
   }
 
   img{
@@ -89,6 +93,7 @@ h1{
 
   ol{
     color:#1b1b1b;
+    padding-left: 0;
   }
 
   ul{
